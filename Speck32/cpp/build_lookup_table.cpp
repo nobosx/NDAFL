@@ -143,18 +143,18 @@ int main(int argc, char *argv[]) {
     uint64_t input_space = 1 << input_bits;
     uint64_t *lookup_table = new uint64_t[input_space];
 
-    // If the table already exists, just load it using the following code
-    // printf("Building lookup table %s...\n", table_path.c_str());
-    // clock_t start = clock();
-    // build_counter_table(num_rounds, diff, lookup_table, input_bits, average_num, dis_setting);
-    // clock_t end = clock();
-    // printf("Building time: %f s.\n", (end - start + 0.0) / CLOCKS_PER_SEC);
-
     // Build a counter lookup table
-    printf("Loading lookup table %s...\n", table_path.c_str());
-    FILE *input_file = fopen(table_path.c_str(), "rb");
-    fread((void *)lookup_table, sizeof(uint64_t), input_space, input_file);
-    fclose(input_file);
+    printf("Building lookup table %s...\n", table_path.c_str());
+    clock_t start = clock();
+    build_counter_table(num_rounds, diff, lookup_table, input_bits, average_num, dis_setting);
+    clock_t end = clock();
+    printf("Building time: %f s.\n", (end - start + 0.0) / CLOCKS_PER_SEC);
+
+    // If the table already exists, just load it using the following code
+    // printf("Loading lookup table %s...\n", table_path.c_str());
+    // FILE *input_file = fopen(table_path.c_str(), "rb");
+    // fread((void *)lookup_table, sizeof(uint64_t), input_space, input_file);
+    // fclose(input_file);
 
     // Test distinguisher accuracy
     test_distinguisher_acc(1e7, num_rounds, diff, lookup_table, input_bits, dis_setting);
