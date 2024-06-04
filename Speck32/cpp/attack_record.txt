@@ -1,0 +1,2993 @@
+// 13r key recovery attack 
+// The attack has been executed for 100 times.
+// # 0 ~ 9
+Attack index: 0
+[Debug] tk_k0_bits: 7
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Find one surviving kg.
+Diff before verify search: (0x200, 0x202)
+Diff after verify search: (0x0, 0x0)
+Attack time: 18195.593000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 1
+[Debug] tk_k0_bits: 5
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Find one surviving kg.
+Diff before verify search: (0x0, 0x580)
+Diff after verify search: (0x0, 0x0)
+Attack time: 2346.454000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 2
+[Debug] tk_k0_bits: 2
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Find one surviving kg.
+Diff before verify search: (0x600, 0x281)
+Diff after verify search: (0x0, 0x0)
+Attack time: 5567.203000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 3
+[Debug] tk_k0_bits: 6
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Find one surviving kg.
+Diff before verify search: (0x4, 0x481)
+Diff after verify search: (0x0, 0x0)
+Attack time: 15924.265000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 4
+[Debug] tk_k0_bits: 0
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 20334.454000 s
+Attack failed, no survivng kg.
+
+Attack index: 5
+[Debug] tk_k0_bits: 5
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 20104.359000 s
+Attack failed, no survivng kg.
+
+Attack index: 6
+[Debug] tk_k0_bits: 4
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Find one surviving kg.
+Diff before verify search: (0x600, 0x781)
+Diff after verify search: (0x0, 0x0)
+Attack time: 1200.968000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 7
+[Debug] tk_k0_bits: 0
+Testing k0 guess: 0
+Repeat index: 0
+Find one surviving kg.
+Diff before verify search: (0x0, 0x301)
+Diff after verify search: (0x0, 0x0)
+Attack time: 19.078000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 8
+[Debug] tk_k0_bits: 3
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Find one surviving kg.
+Diff before verify search: (0x0, 0x181)
+Diff after verify search: (0x0, 0x0)
+Attack time: 12702.610000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 9
+[Debug] tk_k0_bits: 4
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Find one surviving kg.
+Diff before verify search: (0x0, 0x280)
+Diff after verify search: (0x0, 0x0)
+Attack time: 12357.235000 s
+Surviving kg hamming distance = (0, 0)
+
+[Attack summary]
+Average running time: 10875.221900
+Attack success time: 8
+Kg surviving time: 8
+
+// # 10 ~ 19
+Attack index: 0      
+[Debug] tk_k0_bits: 2
+Testing k0 guess: 0  
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Find one surviving kg.
+Diff before verify search: (0x2, 0xc0)
+Diff after verify search: (0x0, 0x0)
+Attack time: 5358.282000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 1
+[Debug] tk_k0_bits: 2
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Find one surviving kg.
+Diff before verify search: (0x400, 0x682)
+Diff after verify search: (0x0, 0x0)
+Attack time: 6625.953000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 2
+[Debug] tk_k0_bits: 7
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Find one surviving kg.
+Diff before verify search: (0x0, 0x281)
+Diff after verify search: (0x0, 0x0)
+Attack time: 18630.328000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 3
+[Debug] tk_k0_bits: 1
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Find one surviving kg.
+Diff before verify search: (0x0, 0xf80)
+Diff after verify search: (0x0, 0x0)
+Attack time: 5074.906000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 4
+[Debug] tk_k0_bits: 1
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Find one surviving kg.
+Diff before verify search: (0x2, 0x140)
+Diff after verify search: (0x0, 0x0)
+Attack time: 4683.922000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 5
+[Debug] tk_k0_bits: 0
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 20416.641000 s
+Attack failed, no survivng kg.
+
+Attack index: 6
+[Debug] tk_k0_bits: 5
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Find one surviving kg.
+Diff before verify search: (0x400, 0x205)
+Diff after verify search: (0x0, 0x0)
+Attack time: 14398.031000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 7
+[Debug] tk_k0_bits: 4
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 20139.594000 s
+Attack failed, no survivng kg.
+
+Attack index: 8
+[Debug] tk_k0_bits: 6
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Find one surviving kg.
+Diff before verify search: (0x0, 0x0)
+Diff after verify search: (0x0, 0x0)
+Attack time: 8491.016000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 9
+[Debug] tk_k0_bits: 1
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Find one surviving kg.
+Diff before verify search: (0x0, 0x1)
+Diff after verify search: (0x0, 0x0)
+Attack time: 4062.968000 s
+Surviving kg hamming distance = (0, 0)
+
+[Attack summary]
+Average running time: 10788.164100
+Attack success time: 8
+Kg surviving time: 8
+
+// # 20 ~ 29
+Attack index: 0      
+[Debug] tk_k0_bits: 3
+Testing k0 guess: 0  
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Find one surviving kg.
+Diff before verify search: (0x4, 0x1a00)
+Diff after verify search: (0x0, 0x0)
+Attack time: 8059.547000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 1
+[Debug] tk_k0_bits: 1
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 20355.265000 s
+Attack failed, no survivng kg.
+
+Attack index: 2
+[Debug] tk_k0_bits: 3
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Find one surviving kg.
+Diff before verify search: (0x0, 0x181)
+Diff after verify search: (0x0, 0x0)
+Attack time: 8605.110000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 3
+[Debug] tk_k0_bits: 2
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Find one surviving kg.
+Diff before verify search: (0x2, 0x280)
+Diff after verify search: (0x0, 0x0)
+Attack time: 6265.219000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 4
+[Debug] tk_k0_bits: 1
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Find one surviving kg.
+Diff before verify search: (0x0, 0x380)
+Diff after verify search: (0x0, 0x0)
+Attack time: 3131.624000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 5
+[Debug] tk_k0_bits: 4
+Testing k0 guess: 0
+Repeat index: 0
+Find one surviving kg.
+Diff before verify search: (0x0, 0x280)
+Diff after verify search: (0x0, 0x0)
+Attack time: 202.735000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 6
+[Debug] tk_k0_bits: 0
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Find one surviving kg.
+Diff before verify search: (0x8, 0xd80)
+Diff after verify search: (0x0, 0x0)
+Attack time: 927.532000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 7
+[Debug] tk_k0_bits: 4
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Find one surviving kg.
+Diff before verify search: (0x8, 0x683)
+Diff after verify search: (0x0, 0x0)
+Attack time: 672.671000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 8
+[Debug] tk_k0_bits: 4
+Testing k0 guess: 0
+Repeat index: 0
+Find one surviving kg.
+Diff before verify search: (0x2, 0x2180)
+Diff after verify search: (0x0, 0x0)
+Attack time: 405.297000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 9
+[Debug] tk_k0_bits: 2
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Find one surviving kg.
+Diff before verify search: (0x0, 0x380)
+Diff after verify search: (0x0, 0x0)
+Attack time: 5975.766000 s
+Surviving kg hamming distance = (0, 0)
+
+[Attack summary]
+Average running time: 5460.076600
+Attack success time: 9
+Kg surviving time: 9
+
+// # 30 ~ 39
+Attack index: 0      
+[Debug] tk_k0_bits: 0
+Testing k0 guess: 0  
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 20525.874000 s
+Attack failed, no survivng kg.
+
+Attack index: 1
+[Debug] tk_k0_bits: 5
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Find one surviving kg.
+Diff before verify search: (0x0, 0x380)
+Diff after verify search: (0x0, 0x0)
+Attack time: 2801.953000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 2
+[Debug] tk_k0_bits: 1
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 20284.640000 s
+Attack failed, no survivng kg.
+
+Attack index: 3
+[Debug] tk_k0_bits: 4
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Find one surviving kg.
+Diff before verify search: (0x600, 0x2)
+Diff after verify search: (0x0, 0x0)
+Attack time: 11241.095000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 4
+[Debug] tk_k0_bits: 1
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Find one surviving kg.
+Diff before verify search: (0x4, 0x600)
+Diff after verify search: (0x0, 0x0)
+Attack time: 14459.781000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 5
+[Debug] tk_k0_bits: 2
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 20134.843000 s
+Attack failed, no survivng kg.
+
+Attack index: 6
+[Debug] tk_k0_bits: 0
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 19999.969000 s
+Attack failed, no survivng kg.
+
+Attack index: 7
+[Debug] tk_k0_bits: 0
+Testing k0 guess: 0
+Repeat index: 0
+Find one surviving kg.
+Diff before verify search: (0x2, 0x2340)
+Diff after verify search: (0x0, 0x0)
+Attack time: 188.516000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 8
+[Debug] tk_k0_bits: 7
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 17771.031000 s
+Attack failed, no survivng kg.
+
+Attack index: 9
+[Debug] tk_k0_bits: 6
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Find one surviving kg.
+Diff before verify search: (0x2, 0x300)
+Diff after verify search: (0x0, 0x0)
+Attack time: 5272.860000 s
+Surviving kg hamming distance = (0, 0)
+
+[Attack summary]
+Average running time: 13268.056200
+Attack success time: 5
+Kg surviving time: 5
+
+// # 40 ~ 49
+Attack index: 0      
+[Debug] tk_k0_bits: 2
+Testing k0 guess: 0  
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Find one surviving kg.
+Diff before verify search: (0x0, 0xd80)
+Diff after verify search: (0x0, 0x0)
+Attack time: 7150.860000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 1
+[Debug] tk_k0_bits: 5
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Find one surviving kg.
+Diff before verify search: (0x6, 0x180)
+Diff after verify search: (0x0, 0x0)
+Attack time: 4738.140000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 2
+[Debug] tk_k0_bits: 5
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 20383.297000 s
+Attack failed, no survivng kg.
+
+Attack index: 3
+[Debug] tk_k0_bits: 2
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 20321.406000 s
+Attack failed, no survivng kg.
+
+Attack index: 4
+[Debug] tk_k0_bits: 4
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Find one surviving kg.
+Diff before verify search: (0x200, 0x302)
+Diff after verify search: (0x0, 0x0)
+Attack time: 10986.000000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 5
+[Debug] tk_k0_bits: 6
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Find one surviving kg.
+Diff before verify search: (0x600, 0x781)
+Diff after verify search: (0x0, 0x0)
+Attack time: 5065.063000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 6
+[Debug] tk_k0_bits: 1
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 20064.313000 s
+Attack failed, no survivng kg.
+
+Attack index: 7
+[Debug] tk_k0_bits: 1
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Find one surviving kg.
+Diff before verify search: (0xc, 0x102)
+Diff after verify search: (0x0, 0x0)
+Attack time: 2667.812000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 8
+[Debug] tk_k0_bits: 1
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Find one surviving kg.
+Diff before verify search: (0x0, 0x140)
+Diff after verify search: (0x0, 0x0)
+Attack time: 2203.578000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 9
+[Debug] tk_k0_bits: 7
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 19756.922000 s
+Attack failed, no survivng kg.
+
+[Attack summary]
+Average running time: 11333.739100
+Attack success time: 6
+Kg surviving time: 6
+
+// # 50 ~ 59
+Attack index: 0
+[Debug] tk_k0_bits: 5
+Testing k0 guess: 0
+Repeat index: 0
+Find one surviving kg.
+Diff before verify search: (0x4, 0xe80)
+Diff after verify search: (0x0, 0x0)
+Attack time: 507.234000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 1
+[Debug] tk_k0_bits: 2
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Find one surviving kg.
+Diff before verify search: (0x4, 0x402)
+Diff after verify search: (0x0, 0x0)
+Attack time: 6616.187000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 2
+[Debug] tk_k0_bits: 3
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Find one surviving kg.
+Diff before verify search: (0x0, 0x81)
+Diff after verify search: (0x0, 0x0)
+Attack time: 9131.063000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 3
+[Debug] tk_k0_bits: 5
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Find one surviving kg.
+Diff before verify search: (0x8, 0xe80)
+Diff after verify search: (0x0, 0x0)
+Attack time: 2788.141000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 4
+[Debug] tk_k0_bits: 7
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 20365.031000 s
+Attack failed, no survivng kg.
+
+Attack index: 5
+[Debug] tk_k0_bits: 1
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Find one surviving kg.
+Diff before verify search: (0x0, 0x101)
+Diff after verify search: (0x0, 0x0)
+Attack time: 11201.094000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 6
+[Debug] tk_k0_bits: 1
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 20303.172000 s
+Attack failed, no survivng kg.
+
+Attack index: 7
+[Debug] tk_k0_bits: 4
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Find one surviving kg.
+Diff before verify search: (0x0, 0x500)
+Diff after verify search: (0x0, 0x0)
+Attack time: 2656.828000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 8
+[Debug] tk_k0_bits: 3
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 20195.140000 s
+Attack failed, no survivng kg.
+
+Attack index: 9
+[Debug] tk_k0_bits: 0
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 19364.328000 s
+Attack failed, no survivng kg.
+
+[Attack summary]
+Average running time: 11312.821800
+Attack success time: 6
+Kg surviving time: 6
+
+// # 60 ~ 69
+Attack index: 0
+[Debug] tk_k0_bits: 1
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Find one surviving kg.
+Diff before verify search: (0x4, 0x500)
+Diff after verify search: (0x0, 0x0)
+Attack time: 3169.452000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 1
+[Debug] tk_k0_bits: 0
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Find one surviving kg.
+Diff before verify search: (0x4, 0x400)
+Diff after verify search: (0x0, 0x0)
+Attack time: 2380.344000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 2
+[Debug] tk_k0_bits: 1
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Find one surviving kg.
+Diff before verify search: (0x4, 0x680)
+Diff after verify search: (0x0, 0x0)
+Attack time: 2626.141000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 3
+[Debug] tk_k0_bits: 6
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Find one surviving kg.
+Diff before verify search: (0x400, 0x682)
+Diff after verify search: (0x0, 0x0)
+Attack time: 15785.312000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 4
+[Debug] tk_k0_bits: 2
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 20338.969000 s
+Attack failed, no survivng kg.
+
+Attack index: 5
+[Debug] tk_k0_bits: 0
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 20379.266000 s
+Attack failed, no survivng kg.
+
+Attack index: 6
+[Debug] tk_k0_bits: 6
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Find one surviving kg.
+Diff before verify search: (0x0, 0x83)
+Diff after verify search: (0x0, 0x0)
+Attack time: 5634.141000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 7
+[Debug] tk_k0_bits: 2
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 20179.687000 s
+Attack failed, no survivng kg.
+
+Attack index: 8
+[Debug] tk_k0_bits: 1
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Find one surviving kg.
+Diff before verify search: (0x0, 0x381)
+Diff after verify search: (0x0, 0x0)
+Attack time: 4618.625000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 9
+[Debug] tk_k0_bits: 4
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Find one surviving kg.
+Diff before verify search: (0x0, 0x81)
+Diff after verify search: (0x0, 0x0)
+Attack time: 11108.765000 s
+Surviving kg hamming distance = (0, 0)
+
+[Attack summary]
+Average running time: 10622.070200
+Attack success time: 7
+Kg surviving time: 7
+
+// # 70 ~ 79
+Attack index: 0
+[Debug] tk_k0_bits: 4
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 20408.891000 s
+Attack failed, no survivng kg.
+
+Attack index: 1
+[Debug] tk_k0_bits: 3
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 20375.375000 s
+Attack failed, no survivng kg.
+
+Attack index: 2
+[Debug] tk_k0_bits: 3
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Find one surviving kg.
+Diff before verify search: (0x0, 0xc82)
+Diff after verify search: (0x0, 0x0)
+Attack time: 9043.640000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 3
+[Debug] tk_k0_bits: 6
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 20409.719000 s
+Attack failed, no survivng kg.
+
+Attack index: 4
+[Debug] tk_k0_bits: 6
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 20393.531000 s
+Attack failed, no survivng kg.
+
+Attack index: 5
+[Debug] tk_k0_bits: 5
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 19616.063000 s
+Attack failed, no survivng kg.
+
+Attack index: 6
+[Debug] tk_k0_bits: 7
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 17647.109000 s
+Attack failed, no survivng kg.
+
+Attack index: 7
+[Debug] tk_k0_bits: 0
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 17405.031000 s
+Attack failed, no survivng kg.
+
+Attack index: 8
+[Debug] tk_k0_bits: 7
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Find one surviving kg.
+Diff before verify search: (0x0, 0x200)
+Diff after verify search: (0x0, 0x0)
+Attack time: 6524.157000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 9
+[Debug] tk_k0_bits: 6
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Find one surviving kg.
+Diff before verify search: (0x0, 0x380)
+Diff after verify search: (0x0, 0x80)
+Attack time: 8306.875000 s
+Surviving kg hamming distance = (0, 1)
+
+[Attack summary]
+Average running time: 16013.039100
+Attack success time: 3
+Kg surviving time: 3
+
+// # 80 ~ 89
+Attack index: 0
+[Debug] tk_k0_bits: 6
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 20477.124000 s
+Attack failed, no survivng kg.
+
+Attack index: 1
+[Debug] tk_k0_bits: 0
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Find one surviving kg.
+Diff before verify search: (0x200, 0x3)
+Diff after verify search: (0x0, 0x0)
+Attack time: 663.985000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 2
+[Debug] tk_k0_bits: 6
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Find one surviving kg.
+Diff before verify search: (0x4, 0x300)
+Diff after verify search: (0x0, 0x0)
+Attack time: 5557.657000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 3
+[Debug] tk_k0_bits: 1
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Find one surviving kg.
+Diff before verify search: (0x0, 0x0)
+Diff after verify search: (0x0, 0x0)
+Attack time: 13951.624000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 4
+[Debug] tk_k0_bits: 2
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Find one surviving kg.
+Diff before verify search: (0x2, 0x380)
+Diff after verify search: (0x0, 0x0)
+Attack time: 6212.281000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 5
+[Debug] tk_k0_bits: 3
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Find one surviving kg.
+Diff before verify search: (0x2, 0x2300)
+Diff after verify search: (0x0, 0x0)
+Attack time: 9019.469000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 6
+[Debug] tk_k0_bits: 6
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Find one surviving kg.
+Diff before verify search: (0x6, 0x200)
+Diff after verify search: (0x0, 0x0)
+Attack time: 5900.734000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 7
+[Debug] tk_k0_bits: 4
+Testing k0 guess: 0
+Repeat index: 0
+Find one surviving kg.
+Diff before verify search: (0x400, 0x301)
+Diff after verify search: (0x0, 0x0)
+Attack time: 97.594000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 8
+[Debug] tk_k0_bits: 1
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Find one surviving kg.
+Diff before verify search: (0x204, 0x701)
+Diff after verify search: (0x0, 0x0)
+Attack time: 3160.672000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 9
+[Debug] tk_k0_bits: 2
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 20372.532000 s
+Attack failed, no survivng kg.
+
+[Attack summary]
+Average running time: 8541.367200
+Attack success time: 8
+Kg surviving time: 8
+
+// # 90 ~ 99
+Attack index: 0
+[Debug] tk_k0_bits: 7
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 20365.078000 s
+Attack failed, no survivng kg.
+
+Attack index: 1
+[Debug] tk_k0_bits: 2
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Find one surviving kg.
+Diff before verify search: (0x0, 0x83)
+Diff after verify search: (0x0, 0x0)
+Attack time: 6247.078000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 2
+[Debug] tk_k0_bits: 5
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Find one surviving kg.
+Diff before verify search: (0x0, 0x101)
+Diff after verify search: (0x0, 0x0)
+Attack time: 4479.251000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 3
+[Debug] tk_k0_bits: 4
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Find one surviving kg.
+Diff before verify search: (0x2, 0x380)
+Diff after verify search: (0x0, 0x0)
+Attack time: 10205.375000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 4
+[Debug] tk_k0_bits: 6
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Find one surviving kg.
+Diff before verify search: (0x0, 0x200)
+Diff after verify search: (0x0, 0x0)
+Attack time: 5081.625000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 5
+[Debug] tk_k0_bits: 5
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Find one surviving kg.
+Diff before verify search: (0x0, 0x600)
+Diff after verify search: (0x0, 0x0)
+Attack time: 13515.077000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 6
+[Debug] tk_k0_bits: 7
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 5
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 6
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 7
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Attack time: 20282.423000 s
+Attack failed, no survivng kg.
+
+Attack index: 7
+[Debug] tk_k0_bits: 0
+Testing k0 guess: 0
+Repeat index: 0
+Find one surviving kg.
+Diff before verify search: (0x8, 0x4c0)
+Diff after verify search: (0x0, 0x0)
+Attack time: 90.844000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 8
+[Debug] tk_k0_bits: 4
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 2
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 3
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 4
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Find one surviving kg.
+Diff before verify search: (0x2, 0x280)
+Diff after verify search: (0x0, 0x0)
+Attack time: 12322.890000 s
+Surviving kg hamming distance = (0, 0)
+
+Attack index: 9
+[Debug] tk_k0_bits: 5
+Testing k0 guess: 0
+Repeat index: 0
+Repeat index: 1
+Repeat index: 2
+Repeat index: 3
+Testing k0 guess: 1
+Repeat index: 0
+Find one surviving kg.
+Diff before verify search: (0xe00, 0x82)
+Diff after verify search: (0x0, 0x0)
+Attack time: 2523.781000 s
+Surviving kg hamming distance = (0, 0)
+
+[Attack summary]
+Average running time: 9511.342200
+Attack success time: 8
+Kg surviving time: 8
