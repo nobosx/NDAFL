@@ -1,6 +1,6 @@
 # Revisiting BST: Back from Deep Learning to Classical Cryptanalysis
 
-This repository contains the supplementary codes of the paper *Revisiting DST: Back from Deep Learning to Classical Cryptanalysis*. It includes the applications of the framework Neural Distinguisher-Aided Feature Location to: Speck32, Speck48, Speck64, Speck96, Speck 128, Simon32, Simon 64, Simon 128 and LEA. The codes are mainly written in C++ and Python.
+This repository contains the supplementary codes of the paper *Revisiting DST: Back from Deep Learning to Classical Cryptanalysis*. It includes the applications of the framework Neural Distinguisher-Aided Feature Location to: Speck32, Speck48, Speck64, Speck96 and Speck 128. The codes are mainly written in C++ and Python.
 
 In the folder `Speck32`:
 
