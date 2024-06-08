@@ -2,4 +2,3 @@
 .vscode
 *.exe
 __pycache__
-!./gitkeep

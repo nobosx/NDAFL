@@ -1,6 +1,6 @@
 # Revisiting BST: Back from Deep Learning to Classical Cryptanalysis
 
-This repository contains the supplementary codes of the paper *Revisiting DST: Back from Deep Learning to Classical Cryptanalysis*. It includes the applications of the framework Neural Distinguisher-Aided Feature Location to: Speck32, Speck48, Speck64, Speck96 and Speck 128. The codes are mainly written in C++ and Python.
+This repository contains the supplementary codes of the paper *Revisiting DST: Back from Deep Learning to Classical Cryptanalysis*. It includes the applications of the framework Neural Distinguisher-Aided Feature Location to: Speck32, Speck48, Speck64, Speck96, Speck 128 and Simon. The codes are mainly written in C++ and Python.
 
 In the folder `Speck32`:
 
@@ -16,5 +16,10 @@ The structure in the folder Speck48, Speck64, Speck96 and Speck128 is basically 
 
 * Neural distinguishers and the neural differential distinguishers as baseline on Speck48 can be trained in `train_nets.py` and evaluated in `eval_nets.py`. These distinguishers are stored in the folder `saved_models` and the file name of a neural differential distinguisher has the suffix `only_diff`. 
 * Bit sensitivity test is implemented in `bst.py`. The results are stored in the folder `bst_res`.
-* The C++ code of building and evaluating a counter lookup table for Speck48 is in `cpp/build_lookup_table.cpp`. The resulting lookup table will be stored in the folder `cpp/lookup_table`.
+* The C++ code of building and evaluating a counter lookup table for Speck48 is in `cpp/build_lookup_table.cpp`. The resulting lookup tables will be stored in the folder `cpp/lookup_table`.
 
+In the folder `Simon`:
+
+* Neural distinguishers of Simon32, Simon64 and Simon128 can be obtained by running `train_nets.py` and evaluated by running `eval_nets.py`. These neural distinguishers are provided in the folder `saved_models`.
+* Bit sensitivity test is implemented in `bst.py` and the results are provided in the folder `bst_res`.
+* The C++ code of building and evaluating a counter lookup table for Simon is in `cpp/build_lookup_table.cpp`. The resulting lookup tables will be stored in the folder `cpp/lookup_table`. To build lookup tables for different Simon instances, one need to choose the version of Simon instance in `cpp/simon.h` (defined as `SIMON32_64`, `SIMON64_128` and `SIMON128_128` respectively) first. 

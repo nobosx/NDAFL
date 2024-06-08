@@ -14,9 +14,9 @@ using namespace std;
 #define RAND_BYTE (random_generator.rand_byte())
 
 // Choose version of Simon cipher here!
-// #define SIMON32_64
+#define SIMON32_64
 // #define SIMON64_128
-#define SIMON128_128
+// #define SIMON128_128
 
 #ifdef SIMON32_64
 #define WORD_SIZE 16
