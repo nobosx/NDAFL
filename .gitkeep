@@ -1,0 +1,6 @@
+./Speck32/cpp/lookup_table/
+./Speck48/cpp/lookup_table/
+./Speck64/cpp/lookup_table/
+./Speck96/cpp/lookup_table/
+./Speck128/cpp/lookup_table/
+./Simon/cpp/lookup_table/*
