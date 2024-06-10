@@ -2,3 +2,4 @@
 .vscode
 *.exe
 __pycache__
+freshly_trained_nets/

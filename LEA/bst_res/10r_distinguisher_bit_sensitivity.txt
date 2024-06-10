@@ -1,0 +1,513 @@
+The initial acc is  0.5863217115402222
+cur bit position is  0
+the decrease of the acc is  -8.285045623779297e-06
+cur bit position is  1
+the decrease of the acc is  8.940696716308594e-07
+cur bit position is  2
+the decrease of the acc is  -1.3113021850585938e-05
+cur bit position is  3
+the decrease of the acc is  -1.1086463928222656e-05
+cur bit position is  4
+the decrease of the acc is  -2.2649765014648438e-06
+cur bit position is  5
+the decrease of the acc is  4.5299530029296875e-06
+cur bit position is  6
+the decrease of the acc is  1.823902130126953e-05
+cur bit position is  7
+the decrease of the acc is  -1.4185905456542969e-05
+cur bit position is  8
+the decrease of the acc is  5.7220458984375e-06
+cur bit position is  9
+the decrease of the acc is  6.4373016357421875e-06
+cur bit position is  10
+the decrease of the acc is  1.0013580322265625e-05
+cur bit position is  11
+the decrease of the acc is  1.1920928955078125e-06
+cur bit position is  12
+the decrease of the acc is  7.331371307373047e-06
+cur bit position is  13
+the decrease of the acc is  -3.993511199951172e-06
+cur bit position is  14
+the decrease of the acc is  1.430511474609375e-06
+cur bit position is  15
+the decrease of the acc is  -6.794929504394531e-06
+cur bit position is  16
+the decrease of the acc is  -4.470348358154297e-06
+cur bit position is  17
+the decrease of the acc is  -8.404254913330078e-06
+cur bit position is  18
+the decrease of the acc is  5.841255187988281e-06
+cur bit position is  19
+the decrease of the acc is  -2.562999725341797e-06
+cur bit position is  20
+the decrease of the acc is  -4.589557647705078e-06
+cur bit position is  21
+the decrease of the acc is  -1.6093254089355469e-06
+cur bit position is  22
+the decrease of the acc is  -2.8014183044433594e-06
+cur bit position is  23
+the decrease of the acc is  -1.2159347534179688e-05
+cur bit position is  24
+the decrease of the acc is  -4.172325134277344e-06
+cur bit position is  25
+the decrease of the acc is  -7.271766662597656e-06
+cur bit position is  26
+the decrease of the acc is  -3.516674041748047e-06
+cur bit position is  27
+the decrease of the acc is  -5.364418029785156e-06
+cur bit position is  28
+the decrease of the acc is  7.152557373046875e-07
+cur bit position is  29
+the decrease of the acc is  -3.3974647521972656e-06
+cur bit position is  30
+the decrease of the acc is  -3.814697265625e-06
+cur bit position is  31
+the decrease of the acc is  -1.4901161193847656e-06
+cur bit position is  32
+the decrease of the acc is  1.9073486328125e-06
+cur bit position is  33
+the decrease of the acc is  -1.9073486328125e-06
+cur bit position is  34
+the decrease of the acc is  -8.881092071533203e-06
+cur bit position is  35
+the decrease of the acc is  9.000301361083984e-06
+cur bit position is  36
+the decrease of the acc is  -3.814697265625e-06
+cur bit position is  37
+the decrease of the acc is  3.2186508178710938e-06
+cur bit position is  38
+the decrease of the acc is  -4.172325134277344e-07
+cur bit position is  39
+the decrease of the acc is  -1.3470649719238281e-05
+cur bit position is  40
+the decrease of the acc is  -9.417533874511719e-06
+cur bit position is  41
+the decrease of the acc is  2.5212764739990234e-05
+cur bit position is  42
+the decrease of the acc is  1.6093254089355469e-06
+cur bit position is  43
+the decrease of the acc is  -3.814697265625e-06
+cur bit position is  44
+the decrease of the acc is  -2.205371856689453e-06
+cur bit position is  45
+the decrease of the acc is  -7.271766662597656e-06
+cur bit position is  46
+the decrease of the acc is  -7.748603820800781e-07
+cur bit position is  47
+the decrease of the acc is  -3.874301910400391e-06
+cur bit position is  48
+the decrease of the acc is  -4.172325134277344e-06
+cur bit position is  49
+the decrease of the acc is  -1.3113021850585938e-06
+cur bit position is  50
+the decrease of the acc is  -7.68899917602539e-06
+cur bit position is  51
+the decrease of the acc is  -1.0132789611816406e-06
+cur bit position is  52
+the decrease of the acc is  1.1920928955078125e-06
+cur bit position is  53
+the decrease of the acc is  -2.086162567138672e-06
+cur bit position is  54
+the decrease of the acc is  -7.092952728271484e-06
+cur bit position is  55
+the decrease of the acc is  -5.185604095458984e-06
+cur bit position is  56
+the decrease of the acc is  -3.6954879760742188e-06
+cur bit position is  57
+the decrease of the acc is  -2.9802322387695312e-06
+cur bit position is  58
+the decrease of the acc is  -1.5795230865478516e-05
+cur bit position is  59
+the decrease of the acc is  -3.874301910400391e-06
+cur bit position is  60
+the decrease of the acc is  -2.9802322387695312e-06
+cur bit position is  61
+the decrease of the acc is  1.3113021850585938e-06
+cur bit position is  62
+the decrease of the acc is  -8.940696716308594e-07
+cur bit position is  63
+the decrease of the acc is  -1.3113021850585938e-06
+cur bit position is  64
+the decrease of the acc is  3.3795833587646484e-05
+cur bit position is  65
+the decrease of the acc is  6.139278411865234e-06
+cur bit position is  66
+the decrease of the acc is  8.291006088256836e-05
+cur bit position is  67
+the decrease of the acc is  0.00021523237228393555
+cur bit position is  68
+the decrease of the acc is  0.0005947351455688477
+cur bit position is  69
+the decrease of the acc is  0.0014246106147766113
+cur bit position is  70
+the decrease of the acc is  0.0023035407066345215
+cur bit position is  71
+the decrease of the acc is  0.0028684139251708984
+cur bit position is  72
+the decrease of the acc is  0.005166232585906982
+cur bit position is  73
+the decrease of the acc is  0.004706621170043945
+cur bit position is  74
+the decrease of the acc is  0.0003126859664916992
+cur bit position is  75
+the decrease of the acc is  0.0007799863815307617
+cur bit position is  76
+the decrease of the acc is  0.001805126667022705
+cur bit position is  77
+the decrease of the acc is  0.0019379854202270508
+cur bit position is  78
+the decrease of the acc is  7.510185241699219e-06
+cur bit position is  79
+the decrease of the acc is  -2.658367156982422e-05
+cur bit position is  80
+the decrease of the acc is  5.0067901611328125e-06
+cur bit position is  81
+the decrease of the acc is  1.722574234008789e-05
+cur bit position is  82
+the decrease of the acc is  3.4809112548828125e-05
+cur bit position is  83
+the decrease of the acc is  0.0003231167793273926
+cur bit position is  84
+the decrease of the acc is  0.0008829832077026367
+cur bit position is  85
+the decrease of the acc is  0.002802908420562744
+cur bit position is  86
+the decrease of the acc is  0.007535338401794434
+cur bit position is  87
+the decrease of the acc is  0.013989686965942383
+cur bit position is  88
+the decrease of the acc is  0.012408435344696045
+cur bit position is  89
+the decrease of the acc is  8.851289749145508e-05
+cur bit position is  90
+the decrease of the acc is  0.00010651350021362305
+cur bit position is  91
+the decrease of the acc is  0.00012618303298950195
+cur bit position is  92
+the decrease of the acc is  -4.172325134277344e-07
+cur bit position is  93
+the decrease of the acc is  -1.2099742889404297e-05
+cur bit position is  94
+the decrease of the acc is  -2.562999725341797e-06
+cur bit position is  95
+the decrease of the acc is  -3.5762786865234375e-06
+cur bit position is  96
+the decrease of the acc is  3.933906555175781e-06
+cur bit position is  97
+the decrease of the acc is  4.410743713378906e-06
+cur bit position is  98
+the decrease of the acc is  -3.2782554626464844e-06
+cur bit position is  99
+the decrease of the acc is  -3.6954879760742188e-06
+cur bit position is  100
+the decrease of the acc is  1.6093254089355469e-06
+cur bit position is  101
+the decrease of the acc is  4.827976226806641e-06
+cur bit position is  102
+the decrease of the acc is  9.298324584960938e-06
+cur bit position is  103
+the decrease of the acc is  -4.708766937255859e-06
+cur bit position is  104
+the decrease of the acc is  2.384185791015625e-07
+cur bit position is  105
+the decrease of the acc is  -3.3974647521972656e-06
+cur bit position is  106
+the decrease of the acc is  -2.8014183044433594e-06
+cur bit position is  107
+the decrease of the acc is  2.3245811462402344e-06
+cur bit position is  108
+the decrease of the acc is  -1.2993812561035156e-05
+cur bit position is  109
+the decrease of the acc is  1.1920928955078125e-07
+cur bit position is  110
+the decrease of the acc is  -2.9802322387695312e-06
+cur bit position is  111
+the decrease of the acc is  3.337860107421875e-06
+cur bit position is  112
+the decrease of the acc is  -4.291534423828125e-06
+cur bit position is  113
+the decrease of the acc is  -5.900859832763672e-06
+cur bit position is  114
+the decrease of the acc is  2.3245811462402344e-06
+cur bit position is  115
+the decrease of the acc is  2.3245811462402344e-06
+cur bit position is  116
+the decrease of the acc is  1.1682510375976562e-05
+cur bit position is  117
+the decrease of the acc is  -1.1086463928222656e-05
+cur bit position is  118
+the decrease of the acc is  -1.6689300537109375e-06
+cur bit position is  119
+the decrease of the acc is  1.0132789611816406e-05
+cur bit position is  120
+the decrease of the acc is  6.9141387939453125e-06
+cur bit position is  121
+the decrease of the acc is  2.384185791015625e-07
+cur bit position is  122
+the decrease of the acc is  -4.470348358154297e-06
+cur bit position is  123
+the decrease of the acc is  2.384185791015625e-06
+cur bit position is  124
+the decrease of the acc is  0.0
+cur bit position is  125
+the decrease of the acc is  3.337860107421875e-06
+cur bit position is  126
+the decrease of the acc is  3.039836883544922e-06
+cur bit position is  127
+the decrease of the acc is  -5.960464477539063e-08
+cur bit position is  128
+the decrease of the acc is  -4.172325134277344e-07
+cur bit position is  129
+the decrease of the acc is  7.510185241699219e-06
+cur bit position is  130
+the decrease of the acc is  -6.377696990966797e-06
+cur bit position is  131
+the decrease of the acc is  1.6093254089355469e-06
+cur bit position is  132
+the decrease of the acc is  -7.867813110351562e-06
+cur bit position is  133
+the decrease of the acc is  -8.285045623779297e-06
+cur bit position is  134
+the decrease of the acc is  5.304813385009766e-06
+cur bit position is  135
+the decrease of the acc is  0.00011491775512695312
+cur bit position is  136
+the decrease of the acc is  1.8835067749023438e-05
+cur bit position is  137
+the decrease of the acc is  3.3020973205566406e-05
+cur bit position is  138
+the decrease of the acc is  1.0311603546142578e-05
+cur bit position is  139
+the decrease of the acc is  2.6226043701171875e-06
+cur bit position is  140
+the decrease of the acc is  1.3113021850585938e-05
+cur bit position is  141
+the decrease of the acc is  -6.9141387939453125e-06
+cur bit position is  142
+the decrease of the acc is  -2.086162567138672e-06
+cur bit position is  143
+the decrease of the acc is  -1.7881393432617188e-07
+cur bit position is  144
+the decrease of the acc is  -3.0994415283203125e-06
+cur bit position is  145
+the decrease of the acc is  2.0265579223632812e-06
+cur bit position is  146
+the decrease of the acc is  -9.59634780883789e-06
+cur bit position is  147
+the decrease of the acc is  -4.708766937255859e-06
+cur bit position is  148
+the decrease of the acc is  -1.6808509826660156e-05
+cur bit position is  149
+the decrease of the acc is  -1.800060272216797e-05
+cur bit position is  150
+the decrease of the acc is  1.1920928955078125e-05
+cur bit position is  151
+the decrease of the acc is  2.8789043426513672e-05
+cur bit position is  152
+the decrease of the acc is  -1.0907649993896484e-05
+cur bit position is  153
+the decrease of the acc is  -2.3186206817626953e-05
+cur bit position is  154
+the decrease of the acc is  3.635883331298828e-06
+cur bit position is  155
+the decrease of the acc is  8.940696716308594e-07
+cur bit position is  156
+the decrease of the acc is  -2.2649765014648438e-06
+cur bit position is  157
+the decrease of the acc is  7.68899917602539e-06
+cur bit position is  158
+the decrease of the acc is  -2.562999725341797e-06
+cur bit position is  159
+the decrease of the acc is  2.384185791015625e-06
+cur bit position is  160
+the decrease of the acc is  8.940696716308594e-07
+cur bit position is  161
+the decrease of the acc is  1.329183578491211e-05
+cur bit position is  162
+the decrease of the acc is  -1.239776611328125e-05
+cur bit position is  163
+the decrease of the acc is  -7.68899917602539e-06
+cur bit position is  164
+the decrease of the acc is  0.00013762712478637695
+cur bit position is  165
+the decrease of the acc is  0.0006163120269775391
+cur bit position is  166
+the decrease of the acc is  0.002217531204223633
+cur bit position is  167
+the decrease of the acc is  0.003036797046661377
+cur bit position is  168
+the decrease of the acc is  0.00046712160110473633
+cur bit position is  169
+the decrease of the acc is  0.0018751025199890137
+cur bit position is  170
+the decrease of the acc is  0.0034350156784057617
+cur bit position is  171
+the decrease of the acc is  4.291534423828125e-06
+cur bit position is  172
+the decrease of the acc is  3.063678741455078e-05
+cur bit position is  173
+the decrease of the acc is  2.2709369659423828e-05
+cur bit position is  174
+the decrease of the acc is  1.9311904907226562e-05
+cur bit position is  175
+the decrease of the acc is  1.4185905456542969e-05
+cur bit position is  176
+the decrease of the acc is  -7.3909759521484375e-06
+cur bit position is  177
+the decrease of the acc is  1.1801719665527344e-05
+cur bit position is  178
+the decrease of the acc is  -3.993511199951172e-06
+cur bit position is  179
+the decrease of the acc is  1.2636184692382812e-05
+cur bit position is  180
+the decrease of the acc is  1.329183578491211e-05
+cur bit position is  181
+the decrease of the acc is  1.5437602996826172e-05
+cur bit position is  182
+the decrease of the acc is  2.0325183868408203e-05
+cur bit position is  183
+the decrease of the acc is  0.00012511014938354492
+cur bit position is  184
+the decrease of the acc is  0.00026023387908935547
+cur bit position is  185
+the decrease of the acc is  5.900859832763672e-06
+cur bit position is  186
+the decrease of the acc is  1.4126300811767578e-05
+cur bit position is  187
+the decrease of the acc is  0.00017791986465454102
+cur bit position is  188
+the decrease of the acc is  0.00030243396759033203
+cur bit position is  189
+the decrease of the acc is  -4.589557647705078e-06
+cur bit position is  190
+the decrease of the acc is  -1.7702579498291016e-05
+cur bit position is  191
+the decrease of the acc is  -1.919269561767578e-05
+cur bit position is  192
+the decrease of the acc is  4.172325134277344e-07
+cur bit position is  193
+the decrease of the acc is  1.9609928131103516e-05
+cur bit position is  194
+the decrease of the acc is  0.00010019540786743164
+cur bit position is  195
+the decrease of the acc is  0.00012689828872680664
+cur bit position is  196
+the decrease of the acc is  0.00040793418884277344
+cur bit position is  197
+the decrease of the acc is  0.0013483166694641113
+cur bit position is  198
+the decrease of the acc is  0.0030990242958068848
+cur bit position is  199
+the decrease of the acc is  0.005604982376098633
+cur bit position is  200
+the decrease of the acc is  0.006079494953155518
+cur bit position is  201
+the decrease of the acc is  0.011320412158966064
+cur bit position is  202
+the decrease of the acc is  0.014279603958129883
+cur bit position is  203
+the decrease of the acc is  0.000545799732208252
+cur bit position is  204
+the decrease of the acc is  0.0016258955001831055
+cur bit position is  205
+the decrease of the acc is  0.003761112689971924
+cur bit position is  206
+the decrease of the acc is  0.005897819995880127
+cur bit position is  207
+the decrease of the acc is  3.5881996154785156e-05
+cur bit position is  208
+the decrease of the acc is  3.409385681152344e-05
+cur bit position is  209
+the decrease of the acc is  4.708766937255859e-06
+cur bit position is  210
+the decrease of the acc is  3.7789344787597656e-05
+cur bit position is  211
+the decrease of the acc is  0.00012701749801635742
+cur bit position is  212
+the decrease of the acc is  0.0006394386291503906
+cur bit position is  213
+the decrease of the acc is  0.0018818974494934082
+cur bit position is  214
+the decrease of the acc is  0.005733907222747803
+cur bit position is  215
+the decrease of the acc is  0.015168428421020508
+cur bit position is  216
+the decrease of the acc is  0.02977532148361206
+cur bit position is  217
+the decrease of the acc is  0.03591299057006836
+cur bit position is  218
+the decrease of the acc is  0.0001131892204284668
+cur bit position is  219
+the decrease of the acc is  0.0002614259719848633
+cur bit position is  220
+the decrease of the acc is  0.00042313337326049805
+cur bit position is  221
+the decrease of the acc is  4.827976226806641e-06
+cur bit position is  222
+the decrease of the acc is  5.543231964111328e-05
+cur bit position is  223
+the decrease of the acc is  -1.52587890625e-05
+cur bit position is  224
+the decrease of the acc is  2.300739288330078e-05
+cur bit position is  225
+the decrease of the acc is  2.8192996978759766e-05
+cur bit position is  226
+the decrease of the acc is  5.841255187988281e-05
+cur bit position is  227
+the decrease of the acc is  0.0001385211944580078
+cur bit position is  228
+the decrease of the acc is  0.00027883052825927734
+cur bit position is  229
+the decrease of the acc is  0.0009133219718933105
+cur bit position is  230
+the decrease of the acc is  0.0029159188270568848
+cur bit position is  231
+the decrease of the acc is  0.005175411701202393
+cur bit position is  232
+the decrease of the acc is  0.004341840744018555
+cur bit position is  233
+the decrease of the acc is  0.01133871078491211
+cur bit position is  234
+the decrease of the acc is  0.014067232608795166
+cur bit position is  235
+the decrease of the acc is  0.0002282857894897461
+cur bit position is  236
+the decrease of the acc is  0.0009338855743408203
+cur bit position is  237
+the decrease of the acc is  0.0037187933921813965
+cur bit position is  238
+the decrease of the acc is  0.006045818328857422
+cur bit position is  239
+the decrease of the acc is  2.2709369659423828e-05
+cur bit position is  240
+the decrease of the acc is  2.002716064453125e-05
+cur bit position is  241
+the decrease of the acc is  3.2186508178710938e-06
+cur bit position is  242
+the decrease of the acc is  -6.079673767089844e-06
+cur bit position is  243
+the decrease of the acc is  7.081031799316406e-05
+cur bit position is  244
+the decrease of the acc is  0.00015419721603393555
+cur bit position is  245
+the decrease of the acc is  0.0008217096328735352
+cur bit position is  246
+the decrease of the acc is  0.0029383301734924316
+cur bit position is  247
+the decrease of the acc is  0.010405898094177246
+cur bit position is  248
+the decrease of the acc is  0.02982693910598755
+cur bit position is  249
+the decrease of the acc is  0.03609740734100342
+cur bit position is  250
+the decrease of the acc is  0.000424802303314209
+cur bit position is  251
+the decrease of the acc is  0.0008535385131835938
+cur bit position is  252
+the decrease of the acc is  0.0004062056541442871
+cur bit position is  253
+the decrease of the acc is  2.288818359375e-05
+cur bit position is  254
+the decrease of the acc is  -1.1861324310302734e-05
+cur bit position is  255
+the decrease of the acc is  2.008676528930664e-05

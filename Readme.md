@@ -1,6 +1,6 @@
 # Revisiting BST: Back from Deep Learning to Classical Cryptanalysis
 
-This repository contains the supplementary codes of the paper *Revisiting DST: Back from Deep Learning to Classical Cryptanalysis*. It includes the applications of the framework Neural Distinguisher-Aided Feature Location to: Speck32, Speck48, Speck64, Speck96, Speck 128 and Simon. The codes are mainly written in C++ and Python.
+This repository contains the supplementary codes of the paper *Revisiting DST: Back from Deep Learning to Classical Cryptanalysis*. It includes the applications of the framework Neural Distinguisher-Aided Feature Location to: Speck32, Speck48, Speck64, Speck96, Speck 128, Simon and LEA. The codes are mainly written in C++ and Python.
 
 In the folder `Speck32`:
 
@@ -12,7 +12,7 @@ In the folder `Speck32`:
 * One can run the `make` command in the `cpp` folder to get all the executable files of the C++ codes. On getting the executable file `build_lookup_table`, one can run the command `./build_lookup_table [nr] [log2(alpha)]` to build a counter lookup table for nr rounds and with the average table entry alpha, e.g. `./build_lookup_table 7 10` to build $\mathcal{CD}^{7rSpeck32}_{2^{10}}$​.
 * We have run the 13-round attack for 100 times, and the attacking log is in `./cpp/attack_record.txt`.
 
-The structure in the folder Speck48, Speck64, Speck96 and Speck128 is basically the same. For example, in the folder `Speck48`:
+The structure in the folder Speck48, Speck64, Speck96, Speck128 and LEA is basically the same. For example, in the folder `Speck48`:
 
 * Neural distinguishers and the neural differential distinguishers as baseline on Speck48 can be trained in `train_nets.py` and evaluated in `eval_nets.py`. These distinguishers are stored in the folder `saved_models` and the file name of a neural differential distinguisher has the suffix `only_diff`. 
 * Bit sensitivity test is implemented in `bst.py`. The results are stored in the folder `bst_res`.
