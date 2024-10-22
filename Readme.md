@@ -1,4 +1,4 @@
-# Revisiting BST: Back from Deep Learning to Classical Cryptanalysis
+# NDAFL: A General Framework for Enhancing Deep Learning-Based Cryptanalysis
 
 This repository contains the supplementary codes of the paper *NDAFL: A General Framework for Enhancing Deep Learning-Based Cryptanalysis*. It includes the applications of the framework Neural Distinguisher-Aided Feature Location (NDAFL) to: Speck32, Speck32 under related-key setting, Speck48, Speck64, Speck96, Speck 128, Simon and LEA. The codes are mainly written in C++ and Python.
 
