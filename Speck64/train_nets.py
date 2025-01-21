@@ -1,5 +1,7 @@
 import net
 
+# ID1, ID2, ID3 represent different input plaintext differences.
+
 # ID1
 diff = (0x80, 0)
 diff_index = 39

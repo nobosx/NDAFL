@@ -33,16 +33,19 @@ int main() {
     // Set random seed
     random_generator.set_rand_seed(time(NULL));
     block dis_diff = {0x40, 0};
+
+    // Generate wrong key profile for 7r ND
     uint32_t dis_nr = 7;
     string table_path("lookup_table/7r_table_24_10_7R");
     vector<uint32_t> selected_bits = {44,43,42,41,37,36,35,34,28,27,26,25,24,21,20,19,18,17,11,10,9,8,2,1}; // IBs for 7r ND
 
+    // Generate wrong key profile for 8r ND
     // uint32_t dis_nr = 8;
     // string table_path("lookup_table/8_round_table_22_18_backup");
     // vector<uint32_t> selected_bits = {44,43,42,37,36,35,34,33,28,27,26,21,20,19,18,17,11,10,4,3,2,1}; // IBs for 8r ND
 
     clock_t start, end;
-    uint32_t structure_size = 1 << 12, kg_space = 1 << 16, n = 1 << 18;
+    uint32_t structure_size = 1 << 12, kg_space = 1 << 14, n = 1 << 18;
     
     ifstream fin(table_path, ios::in | ios::binary);
     uint64_t input_space = pow(2, selected_bits.size());

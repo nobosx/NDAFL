@@ -6,7 +6,6 @@ from cipher.abstract_cipher import AbstractCipher
 from cipher.simon import Simon
 from make_data import make_train_data
 import numpy as np
-from net import train_distinguisher, train_distinguisher_with_former_net
 
 def make_diffusion_data(X, bit_id):
     data_width = len(X[0])

@@ -14,14 +14,6 @@ from keras.regularizers import l2
 bs = 5000
 wdir = './freshly_trained_nets/'
 
-
-def extract_selected_bits(X, IBs):
-    data_width = X.shape[1]
-    extracted_X = np.zeros(X.shape, dtype=np.uint8)
-    for i in IBs:
-        extracted_X[:, data_width - 1 - i] = X[:, data_width - 1 - i]
-    return extracted_X
-
 def cyclic_lr(num_epochs, high_lr, low_lr):
     res = lambda i: low_lr + ((num_epochs-1) - i % num_epochs)/(num_epochs-1) * (high_lr - low_lr);
     return(res)
@@ -130,77 +122,3 @@ def eval_distinguisher(n, num_rounds, diff, net_path, data_form="l_r"):
     tpr = np.sum(true_pos & (Y == 1)) / np.sum(Y == 1)
     tnr = np.sum(true_pos & (Y == 0)) / np.sum(Y == 0)
     print("Acc is {}, tpr is {}, tnr is {}.".format(acc, tpr, tnr))
-
-def train_auxiliary_distinguisher(num_epochs, num_rounds, depth, diff, folder, IBs, data_form='dl_l_dy_y'):
-    #create the network
-    num_words = 3 if data_form == 'dl_dy_y' else 4
-    net = make_resnet(num_words=num_words, depth=depth, reg_param=10**-5)
-    net.compile(optimizer='adam', loss='mse', metrics=['acc'])
-
-    X, Y = sp.make_train_data(10**7, num_rounds, diff, data_form)
-    X = extract_selected_bits(X, IBs)
-    X_eval, Y_eval = sp.make_train_data(10**6, num_rounds, diff, data_form)
-    X_eval = extract_selected_bits(X_eval, IBs)
-
-    #set up model checkpoint
-    check = make_checkpoint(wdir+'best'+str(num_rounds)+'depth'+str(depth)+'.h5')
-    #create learnrate schedule
-    lr = LearningRateScheduler(cyclic_lr(10, 0.002, 0.0001))
-    #train and evaluate
-    h = net.fit(X, Y, epochs=num_epochs, batch_size=bs, validation_data=(X_eval, Y_eval), shuffle=True, callbacks=[lr, check])
-    np.save(wdir+'h'+str(num_rounds)+'r_depth'+str(depth)+'.npy', h.history['val_acc'])
-    np.save(wdir+'h'+str(num_rounds)+'r_depth'+str(depth)+'.npy', h.history['val_loss'])
-    dump(h.history, open(wdir+'hist'+str(num_rounds)+'r_depth'+str(depth)+'.p','wb'))
-    print("Best validation accuracy: ", np.max(h.history['val_acc']))
-
-    # save model
-    net.save(folder + '{}r_auxiliary_distinguisher_{}.h5'.format(num_rounds, data_form))
-
-    return(net, h)
-
-def eval_auxiliary_distinguisher(n, num_rounds, diff, net_path, IBs, data_form='dl_l_dy_y'):
-    net = load_model(net_path, compile=False)
-    X, Y = sp.make_train_data(n, num_rounds, diff, data_form)
-    X = extract_selected_bits(X, IBs)
-    predict = net.predict(X, batch_size=10000, verbose=0).flatten() > 0.5
-    true_pos = Y == predict
-    acc = np.sum(true_pos) / n
-    tpr = np.sum(true_pos & (Y == 1)) / np.sum(Y == 1)
-    tnr = np.sum(true_pos & (Y == 0)) / np.sum(Y == 0)
-    print("Acc is {}, tpr is {}, tnr is {}.".format(acc, tpr, tnr))
-
-def train_auxiliary_distinguisher_using_stage_training(num_epochs, num_rounds, num_pre_rounds, diff, auxiliary_diff, folder, IBs, data_form):
-    net = load_model(folder + "{}r_auxiliary_distinguisher_{}.h5".format(num_rounds - 1, data_form), compile=False)
-
-    # stage one
-    net.compile(optimizer=Adam(10**-4), loss='mse', metrics=['acc'])
-    X, Y = sp.make_train_data(10**7, num_rounds - num_pre_rounds, auxiliary_diff, data_form)
-    X = extract_selected_bits(X, IBs)
-    X_eval, Y_eval = sp.make_train_data(10**6, num_rounds - num_pre_rounds, auxiliary_diff, data_form)
-    X_eval = extract_selected_bits(X_eval, IBs)
-    h = net.fit(X, Y, epochs=num_epochs, batch_size=bs, validation_data=(X_eval, Y_eval), shuffle=True)
-    net.save("stage_one_net.h5")
-
-    # stage two
-    net = load_model("stage_one_net.h5")
-    net.compile(optimizer=Adam(10**-4), loss='mse', metrics=['acc'])
-    X, Y = sp.make_train_data(10**8, num_rounds, diff, data_form)
-    X = extract_selected_bits(X, IBs)
-    X_eval, Y_eval = sp.make_train_data(10**6, num_rounds, diff, data_form)
-    X_eval = extract_selected_bits(X_eval, IBs)
-    h = net.fit(X, Y, epochs=num_epochs, batch_size=bs, validation_data=(X_eval, Y_eval), shuffle=True)
-    net.save("stage_two_net.h5")
-    
-    gc.collect()
-
-    # stage three
-    net = load_model("stage_two_net.h5")
-    net.compile(optimizer=Adam(10**-5), loss='mse', metrics=['acc'])
-    X, Y = sp.make_train_data(10**8, num_rounds, diff, data_form)
-    X = extract_selected_bits(X, IBs)
-    X_eval, Y_eval = sp.make_train_data(10**6, num_rounds, diff, data_form)
-    X_eval = extract_selected_bits(X_eval, IBs)
-    h = net.fit(X, Y, epochs=num_epochs, batch_size=bs, validation_data=(X_eval, Y_eval), shuffle=True)
-    print("Best validation accuracy: ", np.max(h.history['val_acc']))
-    # save model
-    net.save(folder + '{}r_auxiliary_distinguisher_{}.h5'.format(num_rounds, data_form))

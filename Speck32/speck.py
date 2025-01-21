@@ -99,7 +99,7 @@ def convert_to_binary(arr):
     return(X)
 
 
-def make_train_data(n, nr, diff=(0x0040, 0), data_form="l_r"):
+def make_train_data(n, nr, diff=(0x0040, 0), data_form="l_r", bits_form=True):
     Y = np.frombuffer(urandom(n), dtype=np.uint8); Y = Y & 1
     keys = np.frombuffer(urandom(8*n), dtype=np.uint16).reshape(4, -1)
     plain0l = np.frombuffer(urandom(2*n), dtype=np.uint16)
@@ -112,16 +112,18 @@ def make_train_data(n, nr, diff=(0x0040, 0), data_form="l_r"):
     ctdata0l, ctdata0r = encrypt((plain0l, plain0r), ks)
     ctdata1l, ctdata1r = encrypt((plain1l, plain1r), ks)
     if data_form == "l_r":
-        X = convert_to_binary([ctdata0l, ctdata0r, ctdata1l, ctdata1r])
+        X = [ctdata0l, ctdata0r, ctdata1l, ctdata1r]
     elif data_form == "dl_dy_y":
         ctdata0y = ror(ctdata0l ^ ctdata0r, BETA())
         ctdata1y = ror(ctdata1l ^ ctdata1r, BETA())
-        X = convert_to_binary([ctdata0l^ctdata1l, ctdata0y^ctdata1y, ctdata0y])
+        X = [ctdata0l^ctdata1l, ctdata0y^ctdata1y, ctdata0y]
     elif data_form == "dl_l_dy_y":
         ctdata0y = ror(ctdata0l ^ ctdata0r, BETA())
         ctdata1y = ror(ctdata1l ^ ctdata1r, BETA())
-        X = convert_to_binary([ctdata0l^ctdata1l, ctdata0l, ctdata0y^ctdata1y, ctdata0y])
-    return (X,Y)
+        X = [ctdata0l^ctdata1l, ctdata0l, ctdata0y^ctdata1y, ctdata0y]
+    if bits_form:
+        X = convert_to_binary(X)
+    return (X, Y)
 
 def make_target_diff_samples(n=10**7, nr=7, diff_type=1, diff=(0x40, 0), data_form="l_r", return_keys=False, common_key=False, bits_form=True):
     p0l = np.frombuffer(urandom(2 * n), dtype=np.uint16)

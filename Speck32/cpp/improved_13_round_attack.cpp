@@ -211,6 +211,7 @@ bool naive_guess_two_rounds(cipher_structure data[], const attack_para_two_round
 
     // Simply visit each ciphertext structure for structure_repeat_num times
     for (int repeat_index = 0; repeat_index < para.structure_repeat_num; repeat_index++) {
+        printf("Repeat index: %d\n", repeat_index);
         for (int i = 0; i < para.num_used_structures; i++) {
             // Guess kg_12
             bayesian_key_search_8r(data[i].c0, data[i].c1, para.structure_size, para.n_iter1, para.n_cand1, kg_scores1, para.lookup_table1, para.mu1, para.sigma1);
@@ -284,12 +285,13 @@ void attack_13r(const attack_para_two_rounds& para) {
             for (int j = 0; j < k0_conditions[i].num_bits; j++) tmp ^= (ks[0] >> k0_conditions[i].xor_bit_pos[j]) & 1;
             tk_k0_bits |= tmp << i;
         }
+        printf("[Debug] tk_k0_bits: %d\n", tk_k0_bits);
 
         // Guess k0
         for (uint32_t k0_guess = 0; k0_guess < k0_guess_space; k0_guess++) {
             for (int i = 0; i < num_conditions; i++) k0_conditions[i].xor_value = (k0_guess >> i) & 1;
             tmp_k0 = gen_rand_uint32_with_linear_constraint(k0_conditions) & 0xffff;
-            printf("k0 guess is: %d\n", k0_guess);
+            printf("Testing k0 guess: %d\n", k0_guess);
 
             // Construct plaintext structures
             for (int i = 0, j = para.num_used_structures >> 1; i < (para.num_used_structures >> 1); i++, j++) gen_extended_plaintext_structure(data[i].p0, data[i].p1, data[j].p0, data[j].p1, para.diff1, para.diff2, para.NBs, para.switch_bit, para.paired_bit, para.plaintext_conditions);

@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include <string>
+#include <assert.h>
 
 #define ID1_8R 1
 #define ID2_8R 2
@@ -88,46 +89,67 @@ void test_distinguishing_acc(const uint32_t& n, const uint32_t& num_rounds, cons
     delete[] c0; delete[] c1, delete[] Y;
 }
 
-int main() {
+int main(int argc, char* argv[]) {
     bool check_res = check_testvector();
     printf("check testvector res is %d.\n", check_res);
     random_generator.set_rand_seed(time(nullptr));
 
-    // ID1_8R
-    block diff = {0x80ull, 0};
-    uint32_t num_rounds = 8;
-    uint32_t input_bits = 26;
-    uint32_t average_num_in_bits = 8;
-    uint32_t dis_setting = ID1_8R;
-    string dis_tag = "ID1_8R";
+    assert(argc == 2);
+    int choice = atoi(argv[1]);
 
-    // ID2_8R
-    // block diff = {0x80ull, 0x800000000000ull};
-    // uint32_t num_rounds = 8;
-    // uint32_t input_bits = 25;
-    // uint32_t average_num_in_bits = 9;
-    // uint32_t dis_setting = ID2_8R;
-    // string dis_tag = "ID2_8R";
+    block diff;
+    uint32_t num_rounds;
+    uint32_t input_bits;
+    uint32_t average_num_in_bits;
+    uint32_t dis_setting;
+    string dis_tag;
 
-    // ID2_9R
-    // block diff = {0x80ull, 0x800000000000ull};
-    // uint32_t num_rounds = 9;
-    // uint32_t input_bits = 22;
-    // uint32_t average_num_in_bits = 12;
-    // uint32_t dis_setting = ID2_9R;
-    // string dis_tag = "ID2_9R";
+    switch (choice)
+    {
+    case 1:
+        // ID1_8R
+        diff = {0x80ull, 0};
+        num_rounds = 8;
+        input_bits = 26;
+        average_num_in_bits = 8;
+        dis_setting = ID1_8R;
+        dis_tag = "ID1_8R";
+        break;
+    case 2:
+        // ID2_8R
+        diff = {0x80ull, 0x800000000000ull};
+        num_rounds = 8;
+        input_bits = 25;
+        average_num_in_bits = 9;
+        dis_setting = ID2_8R;
+        dis_tag = "ID2_8R";
+        break;
+    case 3:
+        // ID2_9R
+        diff = {0x80ull, 0x800000000000ull};
+        num_rounds = 9;
+        input_bits = 22;
+        average_num_in_bits = 12;
+        dis_setting = ID2_9R;
+        dis_tag = "ID2_9R";
+        break;
+    case 4:
+        // ID3_8R
+        diff = {0, 0x800000000000ull};
+        num_rounds = 8;
+        input_bits = 21;
+        average_num_in_bits = 13;
+        dis_setting = ID3_8R;
+        dis_tag = "ID3_8R";
+        break;
+    default:
+        printf("Find undefined setting %d when building a lookup table distinguisher!\n", choice);
+        return 0;
+    }
 
-    // ID3_8R
-    // block diff = {0, 0x800000000000ull};
-    // uint32_t num_rounds = 8;
-    // uint32_t input_bits = 21;
-    // uint32_t average_num_in_bits = 13;
-    // uint32_t dis_setting = ID3_8R;
-    // string dis_tag = "ID3_8R";
-
-    uint64_t average_num = 1 << average_num_in_bits;
+    uint64_t average_num = 1ull << average_num_in_bits;
     string table_path = "./lookup_table/" + to_string(num_rounds) + "r_table_" + to_string(input_bits) + "_" + to_string(average_num_in_bits) + "_" + dis_tag;
-    uint64_t input_space = 1 << input_bits;
+    uint64_t input_space = 1ull << input_bits;
     uint64_t *lookup_table = new uint64_t[input_space];
 
     // Build a counter lookup table
