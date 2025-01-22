@@ -17,7 +17,30 @@ The folders `Speck48`, `Speck64`, `Speck96`, `Speck128` and `LEA`  contain the c
 
 * Neural distinguishers and the neural differential distinguishers as baseline on Speck48 can be trained in `train_nets.py` and evaluated in `eval_nets.py`. These distinguishers are stored in the folder `saved_models` and the file name of a neural differential distinguisher has the suffix `only_diff`. 
 * Bit sensitivity test is implemented in `bst.py`. The results are stored in the folder `bst_res`.
-* The C++ code of building and evaluating a counter lookup table for Speck48 is in `cpp/build_lookup_table.cpp`. The resulting lookup tables will be stored in the folder `cpp/lookup_table`.
+* The C++ code of building and evaluating a counter lookup table for Speck48 is in `cpp/build_lookup_table.cpp`. One can run `./build_lookup_table [choice]` to build a corresponding lookup table distinguisher, where the option `[choice]` is an integer. The resulting lookup tables will be stored in the folder `cpp/lookup_table`.
+
+Specially, in the folder `Speck96/cpp`, C++ code of the 14-round attack on Speck96 is provided in `key_recovery_attack.cpp`. One can change the value of `ATTACK_THREAD_NUM` to set the number of threads used to run the program and change the value of  `n` to set the total number of attack trials. To execute the key recovery attack experiment, one can run the following commands :
+
+```shell
+make
+./build_lookup_table 5
+./build_lookup_table 6
+./build_lookup_table 7
+./build_lookup_table 8
+./key_recovery_attack
+```
+
+Similarly, in the folder `Speck128/cpp`, C++ code of the 14-round attack on Speck128 is provided in `key_recovery_attack.cpp`. One can change the value of `ATTACK_THREAD_NUM` to set the number of threads used to run the program and change the value of  `n` to set the total number of attack trials. To execute the key recovery attack experiment, one can run the following commands:
+
+```shell
+make
+./build_lookup_table 4
+./build_lookup_table 5
+./build_lookup_table 6
+./build_lookup_table 7
+./build_lookup_table 8
+./key_recovery_attack
+```
 
 In the folder `Simon`:
 

@@ -25,6 +25,7 @@ class RandomGenerator {
         uint32_t rand_32bits();
         uint64_t rand_64bits();
         RandomGenerator(uint64_t);
+        RandomGenerator(const RandomGenerator& r);
 };
 
 extern RandomGenerator random_generator;

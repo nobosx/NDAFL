@@ -4,55 +4,25 @@
 #include <time.h>
 #include <stdlib.h>
 #include <math.h>
+#include <assert.h>
 #include <string>
-
-#define ID1_9R 1
-#define ID2_9R 2
-#define ID2_10R 3
+using namespace std;
 
 void build_counter_table(const uint32_t& num_rounds, const block& diff, uint64_t lookup_table[], const uint32_t& input_bits, const uint64_t& average_num, const uint32_t& dis_setting) {
-    uint64_t (*extract_bits_from_block)(const block&, const block&);
-    switch (dis_setting) {
-    case ID1_9R:
-        extract_bits_from_block = extract_bits_from_block_9r_ID1;
-        break;
-    case ID2_9R:
-        extract_bits_from_block = extract_bits_from_block_9r_ID2;
-        break;
-    case ID2_10R:
-        extract_bits_from_block = extract_bits_from_block_10r_ID2;
-        break;
-    default:
-        printf("undefined distinguishing setting!!!\n");
-        exit(0);
-    }
+    InputExtracter extracter = get_extracter(dis_setting);
 
     uint64_t input_space = 1 << input_bits;
     block *c0 = new block[input_space], *c1 = new block[input_space];
     for (uint64_t i = 0; i < input_space; i++) lookup_table[i] = 0;
     for (uint64_t i = 0; i < average_num; i++) {
         make_encryption_data(input_space, num_rounds, diff, c0, c1);
-        for (uint64_t j = 0; j < input_space; j++) ++lookup_table[(*extract_bits_from_block)(c0[j], c1[j])];
+        for (uint64_t j = 0; j < input_space; j++) ++lookup_table[extracter.extract_distinguisher_input(c0[j], c1[j])];
     }
     delete[] c0; delete[] c1;
 }
 
 void test_distinguishing_acc(const uint32_t& n, const uint32_t& num_rounds, const block& diff, const uint64_t lookup_table[], const uint32_t& input_bits, const uint32_t& dis_setting) {
-    uint64_t (*extract_bits_from_block)(const block&, const block&);
-    switch (dis_setting) {
-    case ID1_9R:
-        extract_bits_from_block = extract_bits_from_block_9r_ID1;
-        break;
-    case ID2_9R:
-        extract_bits_from_block = extract_bits_from_block_9r_ID2;
-        break;
-    case ID2_10R:
-        extract_bits_from_block = extract_bits_from_block_10r_ID2;
-        break;
-    default:
-        printf("undefined distinguishing setting!!!\n");
-        exit(0);
-    }
+    InputExtracter extracter = get_extracter(dis_setting);
 
     uint64_t input_space = 1 << input_bits;
     uint64_t sample_num = 0;
@@ -66,7 +36,7 @@ void test_distinguishing_acc(const uint32_t& n, const uint32_t& num_rounds, cons
     uint32_t num_p = 0, num_n = 0, num_true_p = 0, num_true_n = 0;
     bool prediction;
     for (uint32_t i = 0; i < n; i++) {
-        if (lookup_table[(*extract_bits_from_block)(c0[i], c1[i])] < average_num) prediction = false;
+        if (lookup_table[extracter.extract_distinguisher_input(c0[i], c1[i])] < average_num) prediction = false;
         else prediction = true;
         if (Y[i]) {
             num_p++;
@@ -81,38 +51,103 @@ void test_distinguishing_acc(const uint32_t& n, const uint32_t& num_rounds, cons
     delete[] c0; delete[] c1, delete[] Y;
 }
 
-int main() {
+int main(int argc, char* argv[]) {
     bool check_res = check_testvector();
     printf("check testvector res is %d.\n", check_res);
     random_generator.set_rand_seed(time(nullptr));
 
-    // ID1_9R
-    block diff = {0x80ull, 0};
-    uint32_t num_rounds = 9;
-    uint32_t input_bits = 25;
-    uint32_t average_num_in_bits = 9;
-    uint32_t dis_setting = ID1_9R;
-    string dis_tag = "ID1_9R";
+    assert(argc == 2);
+    int choice = atoi(argv[1]);
 
-    // ID2_9R
-    // block diff = {0x80ull, 0x8000000000000000ull};
-    // uint32_t num_rounds = 9;
-    // uint32_t input_bits = 27;
-    // uint32_t average_num_in_bits = 7;
-    // uint32_t dis_setting = ID2_9R;
-    // string dis_tag = "ID2_9R";
+    block diff;
+    uint32_t num_rounds;
+    uint32_t input_bits;
+    uint32_t average_num_in_bits;
+    uint32_t dis_setting;
+    string dis_tag;
 
-    // ID2_10R
-    // block diff = {0x80ull, 0x8000000000000000ull};
-    // uint32_t num_rounds = 10;
-    // uint32_t input_bits = 26;
-    // uint32_t average_num_in_bits = 6;
-    // uint32_t dis_setting = ID2_10R;
-    // string dis_tag = "ID2_10R";
+    switch (choice)
+    {
+    case 1:
+        // ID1_9R
+        diff = {0x80ull, 0};
+        num_rounds = 9;
+        input_bits = 25;
+        average_num_in_bits = 9;
+        dis_setting = ID1_9R;
+        dis_tag = "ID1_9R";
+        break;
+    case 2:
+        // ID2_9R
+        diff = {0x80ull, 0x8000000000000000ull};
+        num_rounds = 9;
+        input_bits = 27;
+        average_num_in_bits = 7;
+        dis_setting = ID2_9R;
+        dis_tag = "ID2_9R";
+        break;
+    case 3:
+        // ID2_10R
+        diff = {0x80ull, 0x8000000000000000ull};
+        num_rounds = 10;
+        input_bits = 26;
+        average_num_in_bits = 6;
+        dis_setting = ID2_10R;
+        dis_tag = "ID2_10R";
+        break;
+    case 4:
+        // ATTACK_9R_DIFF64
+        diff = {0x1ull, 0};
+        num_rounds = 9;
+        input_bits = 18;
+        average_num_in_bits = 14;
+        dis_setting = ATTACK_9R_DIFF64;
+        dis_tag = "9R_DIFF64";
+        break;
+    case 5:
+        // ATTACK_9R_DIFF76
+        diff = {0x1000ull, 0};
+        num_rounds = 9;
+        input_bits = 20;
+        average_num_in_bits = 12;
+        dis_setting = ATTACK_9R_DIFF76;
+        dis_tag = "9R_DIFF76";
+        break;
+    case 6:
+        // ATTACK_9R_DIFF90
+        diff = {0x4000000ull, 0};
+        num_rounds = 9;
+        input_bits = 19;
+        average_num_in_bits = 13;
+        dis_setting = ATTACK_9R_DIFF90;
+        dis_tag = "9R_DIFF90";
+        break;
+    case 7:
+        // ATTACK_9R_DIFF105
+        diff = {0x20000000000ull, 0};
+        num_rounds = 9;
+        input_bits = 20;
+        average_num_in_bits = 12;
+        dis_setting = ATTACK_9R_DIFF105;
+        dis_tag = "9R_DIFF105";
+        break;
+    case 8:
+        // ATTACK_9R_DIFF113
+        diff = {0x2000000000000ull, 0};
+        num_rounds = 9;
+        input_bits = 24;
+        average_num_in_bits = 8;
+        dis_setting = ATTACK_9R_DIFF113;
+        dis_tag = "9R_DIFF113";
+        break;
+    default:
+        printf("Find undefined setting %d when building a lookup table distinguisher!\n", choice);
+        return 0;
+    }  
 
-    uint64_t average_num = 1 << average_num_in_bits;
+    uint64_t average_num = 1ull << average_num_in_bits;
     string table_path = "./lookup_table/" + to_string(num_rounds) + "r_table_" + to_string(input_bits) + "_" + to_string(average_num_in_bits) + "_" + dis_tag;
-    uint64_t input_space = 1 << input_bits;
+    uint64_t input_space = 1ull << input_bits;
     uint64_t *lookup_table = new uint64_t[input_space];
 
     // Build a counter lookup table

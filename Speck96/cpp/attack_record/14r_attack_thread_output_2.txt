@@ -1,0 +1,26 @@
+Attack index: 0.
+[Debug] Begin stage2.
+[Debug] Begin stage2.
+[Debug] Begin stage2.
+[Debug] Begin stage2.
+[Debug] Begin stage2.
+[Debug] Begin stage2.
+[Debug] Begin stage2.
+[Debug] Begin stage2.
+[Debug] Begin stage2.
+[Debug] Begin stage2.
+[Debug] Begin stage2.
+[Debug] Begin stage2.
+[Debug] Begin stage2.
+[Debug] Begin stage2.
+[Debug] Begin stage2.
+[Debug] Begin stage2.
+Attack #0 ends. Time cost: 25875.015000 s.
+Plaintext structure consumption: 8388608.
+No key guess survives. Attack fails!
+[Attack result summary]
+Attack number of times: 1.
+Key guess surviving number of times: 0.
+Attack success number of times: 0.
+Average time cost: 25875.015000 s.
+Average plaintext structure consumption: 8388608.000000.

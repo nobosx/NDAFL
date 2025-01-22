@@ -37,6 +37,9 @@ typedef pair<word, word> block;
 #define RAND_BYTE (random_generator.rand_byte())
 #define RAND_WORD (random_generator.rand_64bits())
 #define RAND_BLOCK {RAND_WORD, RAND_WORD}
+#define RAND_BYTE_X(x) (x->rand_byte())
+#define RAND_WORD_X(x) (x->rand_64bits())
+#define RAND_BLOCK_X(x) {RAND_WORD_X(x), RAND_WORD_X(x)}
 
 word rol(const word& a, const uint32_t& b);
 word ror(const word& a, const uint32_t& b);

@@ -1,0 +1,15 @@
+Attack index: 0.
+[Debug] Begin stage2.
+[Debug] Begin stage3.
+[Debug] Begin stage4.
+Attack #0 ends. Time cost: 71.417000 s.
+Plaintext structure consumption: 4391.
+157 key guesses survives.
+dk1 is 0x0, dk2 is 0x0, hamming distance is 0.
+Attack succeeds!
+[Attack result summary]
+Attack number of times: 1.
+Key guess surviving number of times: 1.
+Attack success number of times: 1.
+Average time cost: 71.417000 s.
+Average plaintext structure consumption: 4391.000000.

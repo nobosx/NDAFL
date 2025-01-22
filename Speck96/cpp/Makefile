@@ -1,7 +1,10 @@
-all : main
+all : build_lookup_table key_recovery_attack
 
-main : build_lookup_table.cpp speck.cpp rand_gen.cpp util.cpp speck.h rand_gen.h util.h
+build_lookup_table : build_lookup_table.cpp speck.cpp rand_gen.cpp util.cpp speck.h rand_gen.h util.h
 	g++ -O2 -std=c++11 -o $@ $^
 
-# test_diff_linear_cor : test_diff_linear_cor.cpp speck.cpp rand_gen.cpp util.cpp speck.h rand_gen.h util.h
-# 	g++ -O2 -std=c++11 -o $@ $^
+key_recovery_attack : key_recovery_attack.cpp speck.cpp rand_gen.cpp util.cpp speck.h rand_gen.h util.h
+	g++ -pthread -O2 -std=c++11 -o $@ $^
+
+clean :
+	rm build_lookup_table key_recovery_attack

@@ -89,6 +89,10 @@ inline void RandomGenerator::transform(uint64_t* A)
 RandomGenerator::RandomGenerator(uint64_t seed) {
 	set_rand_seed(seed);
 }
+RandomGenerator::RandomGenerator(const RandomGenerator& r) {
+	pos = r.pos;
+	for (int i = 0; i < 25; i++) A[i] = r.A[i];
+}
 void RandomGenerator::set_rand_seed(uint64_t seed) {
 	pos = -1;
 	memset(A, 0, sizeof(A));

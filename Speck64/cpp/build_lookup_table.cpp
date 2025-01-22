@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <string>
 #include <math.h>
+#include <assert.h>
 using namespace std;
 
 #define ID1_7R 1
@@ -87,33 +88,53 @@ void test_distinguishing_acc(const uint32_t& n, const uint32_t& num_rounds, cons
     delete[] c0; delete[] c1, delete[] Y;
 }
 
-int main() {
+int main(int argc, char* argv[]) {
     check_testvector();
     random_generator.set_rand_seed(time(0));
 
-    // ID1_7R
-    block diff = {0x80u, 0};
-    uint32_t num_rounds = 7;
-    uint32_t input_bits = 28;
-    uint32_t average_num_in_bits = 8;
-    uint32_t dis_setting = ID1_7R;
-    string dis_tag = "ID1_7R";
+    assert(argc == 2);
+    int choice = atoi(argv[1]);
 
-    // ID2_7R
-    // block diff = {0x80u, 0x80000000u};
-    // uint32_t num_rounds = 7;
-    // uint32_t input_bits = 24;
-    // uint32_t average_num_in_bits = 8;
-    // uint32_t dis_setting = ID2_7R;
-    // string dis_tag = "ID2_7R";
+    block diff;
+    uint32_t num_rounds;
+    uint32_t input_bits;
+    uint32_t average_num_in_bits;
+    uint32_t dis_setting;
+    string dis_tag;
 
-    // ID2_8R
-    // block diff = {0x80u, 0x80000000u};
-    // uint32_t num_rounds = 8;
-    // uint32_t input_bits = 18;
-    // uint32_t average_num_in_bits = 14;
-    // uint32_t dis_setting = ID2_8R;
-    // string dis_tag = "ID2_8R";
+    switch (choice)
+    {
+    case 1:
+        // ID1_7R
+        diff = {0x80u, 0};
+        num_rounds = 7;
+        input_bits = 28;
+        average_num_in_bits = 8;
+        dis_setting = ID1_7R;
+        dis_tag = "ID1_7R";
+        break;
+    case 2:
+        // ID2_7R
+        diff = {0x80u, 0x80000000u};
+        num_rounds = 7;
+        input_bits = 24;
+        average_num_in_bits = 8;
+        dis_setting = ID2_7R;
+        dis_tag = "ID2_7R";
+        break;
+    case 3:
+        // ID2_8R
+        diff = {0x80u, 0x80000000u};
+        num_rounds = 8;
+        input_bits = 18;
+        average_num_in_bits = 14;
+        dis_setting = ID2_8R;
+        dis_tag = "ID2_8R";
+        break;
+    default:
+        printf("Find undefined setting %d when building a lookup table distinguisher!\n", choice);
+        return 0;
+    }
 
     uint64_t average_num = 1 << average_num_in_bits;
     string table_path = "./lookup_table/" + to_string(num_rounds) + "r_table_" + to_string(input_bits) + "_" + to_string(average_num_in_bits) + "_" + dis_tag;
